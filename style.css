@@ -32,14 +32,16 @@
 .sidebar_menu .logo{
     position: absolute;
     width: 350px;
-    top: 12px;
-    left: 100px;
+    top: 0px;
+    height: 60px;
+    box-shadow: 2px 2px 4px white;
 }
 
 .sidebar_menu .logo a{
     color: white;
     font-size: 30px;
     width: 400px;
+    padding-left: 100px;
 }
 
 .sidebar_menu .btn_two i{
@@ -56,6 +58,12 @@
 .sidebar_menu .menu li{
     margin-top: 6px;
     padding: 14px 20px;
+    transition: 0.5s;
+}
+
+.sidebar_menu .menu li:hover{
+    /* background-color: black; */
+    box-shadow: 2px 2px 4px white;
 }
 
 .sidebar_menu .menu{
@@ -84,6 +92,7 @@
     color: white;
     opacity: 0.5;
     padding:0 5px;
+    transition: 0.5s;
 }
 
 .sidebar_menu .social_media i:hover{
